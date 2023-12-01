@@ -11,7 +11,24 @@
   margin-top: 20px;
   display: flex;
   gap: 20px;
+  width: 1400px;
+  overflow-x: scroll;
   margin-left: 20px;
+  margin-right: 20px;
+}
+
+.computer__lest {
+  overflow-x: scroll;
+  width: 1400px;
+  margin-right: 1400px;
+}
+
+.computer__lest::-webkit-scrollbar {
+  display: none;
+}
+
+.computer ul::-webkit-scrollbar {
+  display: none;
 }
 
 .baby__lest ul {
@@ -37,12 +54,6 @@
   margin-top: 620px;
 }
 
-.computer__hero {
-  background-color: white;
-  height: 280px;
-  margin-top: 20px;
-}
-
 .computer__hero ul {
   position: absolute;
   margin-top: 20px;
@@ -65,6 +76,13 @@
   padding-left: 20px;
   padding-top: 20px;
   font-weight: 700;
+}
+
+.computer__hero {
+  position: relative;
+  background-color: white;
+  height: 280px;
+  margin-top: 20px;
 }
 
 .computer__btn {
