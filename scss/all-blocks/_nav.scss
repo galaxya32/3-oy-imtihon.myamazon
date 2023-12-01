@@ -1,0 +1,29 @@
+.navbar{
+    background-color: #283D56;
+    height: 40px;
+}
+
+.navbar__hero ol{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+    
+}
+
+.navbar__hero ol li a{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.navbar__hero{
+    text-align: center;
+}
